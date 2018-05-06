@@ -175,7 +175,7 @@ then
 
 	## Creating Target install directory
 
-	mkdir $TARGET_DIR
+#	mkdir $TARGET_DIR
 
 	if (mkdir $TARGET_DIR)
 	then
