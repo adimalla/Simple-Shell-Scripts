@@ -25,13 +25,17 @@ TARGET_INSTALL="$(pwd)/XFCE_GUI/usr"                                            
 TARGET_DIR=${TARGET_INSTALL%/*}
 
 
-if (ls $DIR_packs $DIR_unpacks)
-then
-	echo "refreshed"
+if (ls $DIR_packs $DIR_unpacks 2>/dev/null)
+then	
 	rm -rf Build.Directories/  && cp Tar.Packages/* . && rm -rf Tar.Packages
 	rm -rf $TARGET_DIR
+	echo
+	echo "Refreshed"
+	echo
 else
-	echo "can't refersh"
+	echo
+	echo "Nothing to Refresh"
+	echo
 	exit 1
 fi
 
