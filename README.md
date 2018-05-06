@@ -1,15 +1,13 @@
 # XFCE Builder shells script version 1.6 for XFCE 4.12 in FEDORA Environment
 
 # DESCRIPTION:
-This script will automaticall unpack all tarball files downloaded from XFCE repository and will arrange it into two directories
-It will Builds and Installs the packages into target deistination directories which can be changed by modifying the variables.
+<b>This script will automaticall unpack all tarball files downloaded from XFCE repository and will arrange it into two directories. It will Builds and Installs the packages into target deistination directories which can be changed by modifying the variables.</b>
 
-<p><b>
-Copyright: (c) 2018 by Aditya Mall. Mentor:Mr.Pravjot Singh
-Email: <aditya.mall1990@gmail.com>
-</b></p>
-  
-Note: This will only build directories in Fedora enviornment and Make sure if you have active internet connection.
+<b> Copyright: (c) 2018 by Aditya Mall.  Mentor:Mr.Pravjot Singh </b>
+<br>
+<b> Email: aditya.mall1990@gmail.com </b>
+
+<i> Note: This will only build directories in Fedora enviornment and Make sure if you have active internet connection.</i>
 
 Feel free to copy and distribute and don't forget to drop me a mail,          
 would love to hear from you regarding your views or if you have any questions. 
