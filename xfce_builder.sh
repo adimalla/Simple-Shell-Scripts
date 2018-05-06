@@ -7,10 +7,8 @@
 ## Copyright: (c) 2018 by Aditya Mall, Mentor: Mr.Pravjot Singh
 ## Email: <aditya.mall1990@gmail.com>
 
-
 ## Feel free to copy and distribute and don't forget to drop me a mail,          
 ## would love to hear from you regarding your views or if you have any questions. 
-
 
 ## General Description:-
 # This script unpacks the source tarball files and manages the files,
@@ -19,7 +17,6 @@
 # Note: This will only build directories in Fedora enviornment.
 # Make sure if you have active internet connection.
 ##
-
 
 ## Usage:-
 # execute './unpacker' or './xfce.unpacker' in your directory containing all src tar files.
@@ -30,7 +27,7 @@
 FILE="xfce_builder.sh"
 DIR_packs="Tar.Packages"
 DIR_unpacks="Build.Directories"
-TARGET_INSTALL="$(pwd)/XFCE_GUI/usr"						#User defined PATH, NOTE: Don't terminate with '/'
+TARGET_INSTALL="$(pwd)/XFCE_GUI/usr"			 #User defined PATH, NOTE: Don't terminate with '/'
 TARGET_DIR=${TARGET_INSTALL%/*}
 
 ##============================== BUILD DIR VARIABLES ================================##
@@ -131,7 +128,7 @@ depend_install()
 
 build()
 {
-	export PKG_CONFIG_PATH="${TARGET_INSTALL}/lib/pkgconfig:$PKG_CONFIG_PATH"			#Intializing path enviornment variable for packageconfig
+	export PKG_CONFIG_PATH="${TARGET_INSTALL}/lib/pkgconfig:$PKG_CONFIG_PATH"	 #Intializing path enviornment variable for packageconfig
 
 	##echo $PKG_CONFIG_PATH
 
@@ -153,7 +150,6 @@ build()
 	(cd $DIR_unpacks/$gtk_xfce_engine_2/; ./configure --prefix=${TARGET_INSTALL} && make && make install)
 	(cd $DIR_unpacks/$tumbler/; ./configure --prefix=${TARGET_INSTALL} && make && make install)
 }
-
 
 ##================================= FUNCTION CALLS ====================================##
 
