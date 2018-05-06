@@ -1,4 +1,4 @@
-# XFCE Builder shells script version 1.6 for XFCE 4.12 in FEDORA Environment
+# XFCE Builder shell script version 1.6 for XFCE 4.12 in FEDORA Environment
 
 <b>DESCRIPTION:-</b><br>
 This script will automaticall unpack all tarball files downloaded from XFCE repository and will arrange it into two directories. It will Builds and Installs the packages into target deistination directories which can be changed by modifying the variables.
