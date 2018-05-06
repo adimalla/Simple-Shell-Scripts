@@ -20,8 +20,11 @@ Below variables in the script can be changed by the user:-
 
 1) Download src files from XFCE repo http://archive.xfce.org/xfce/4.12/fat_tarballs/
 2) Untar the downloaded tarball and copy the script (xfce_buider.sh) into src directory.
-3) Execute script ./xfce_builder.sh
+3) Execute script <b>./xfce_builder.sh</b>
 4) All files will be installed in XFCE_GUI/usr directory in your present working directory.
+
+<b>REFRESH</b><br>
+Execute<b>./refresh.sh</b> for starting over from scratch
 
 # TESTING
 1) Copy files from XFCE_GUI/usr to /usr/local/
