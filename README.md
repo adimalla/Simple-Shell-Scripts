@@ -1,7 +1,7 @@
-# XFCE Builder shell script version 1.6 for XFCE 4.12 in FEDORA Environment
+# XFCE Builder shell script version 1.6 for XFCE 4.12 in FEDORA Environment from XFCE source files.
 
 <b>DESCRIPTION:-</b><br>
-This script will automaticall unpack all tarball files downloaded from XFCE repository and will arrange it into two directories. It will Builds and Installs the packages into target deistination directories which can be changed by modifying the variables.
+XFCE builder script will build the xfce gui from the source files. This script will automaticall unpack all tarball files downloaded from XFCE repository and will arrange it into two directories. It will Builds and Installs the packages into target deistination directories which can be changed by modifying the variables.
 
 <b> Copyright: (c) 2018 by Aditya Mall.  Mentor:Mr.Pravjot Singh </b><br>
 <b> Email: aditya.mall1990@gmail.com </b>
