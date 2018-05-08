@@ -12,9 +12,9 @@ Feel free to copy and distribute and don't forget to drop me a mail,
 would love to hear from you regarding your views or if you have any questions. 
 
 <b>USAGE</b><br>
-Below variables in the script can be changed by the user:-
-#DIR_packs="Tar.Packages"
-#DIR_unpacks="Build.Directories"
+Below variables in the script can be changed by the user:-<br>
+#DIR_packs="Tar.Packages"<br>
+#DIR_unpacks="Build.Directories"<br>
 #TARGET_INSTALL="$(pwd)/XFCE_GUI/usr
 
 1) Download src files from XFCE repo http://archive.xfce.org/xfce/4.12/fat_tarballs/
