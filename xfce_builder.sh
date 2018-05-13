@@ -19,7 +19,7 @@
 ##
 
 ## Usage:-
-# execute './unpacker' or './xfce.unpacker' in your directory containing all src tar files.
+# execute 'xfce_builder.sh' in your directory containing all src tar files.
 # for just 'Build' operation, comment the 'unpack' and 'arrange' function calls.
 ##
 
