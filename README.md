@@ -6,7 +6,7 @@ XFCE builder script will build the xfce gui from the source files. This script w
 <b> Copyright: (c) 2018 by Aditya Mall.  Mentor:Mr.Pravjot Singh </b><br>
 <b> Email: aditya.mall1990@gmail.com </b>
 
-<i><b>Note:</b>This will only build directories in Fedora enviornment and Make sure if you have active internet connection.</i>
+<i><b>Note:</b>This will only build directories in Fedora enviornment and Make sure you have active internet connection.</i>
 
 Feel free to copy and distribute and don't forget to drop me a mail,          
 would love to hear from you regarding your views or if you have any questions. 
